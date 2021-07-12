@@ -822,14 +822,19 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
 
 
 /* Tajinder */
-.getintouch {
+.getintouch
+{
+    /* position: absolute; */
+    /* top: 460em; */
+    width: 99vw;
     background-color: #F3F2E7;
 }
 #image1{
+    /* position: absolute; */
     height: 8rem;
     width: 7rem;
-    top:1px;
-    left:1px;
+    /* top:1px; */
+    /* left:1px; */
 }
 #image2{
     position: absolute;
@@ -837,45 +842,99 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
     width: 5rem;
     left: 3rem;
 }
-
-#para1{
-    font-size: 1.2rem;
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: #F3F2E7;
+    height: 83vh;
+    
 }
-
+#heading1{
+    color:#fd6603;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#heading2{
+    width: 22rem;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#para1{
+    width: 240%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sml-icons img{
     height: 4rem;
     width: 4rem;
-}
 
+}
+.btn2{
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 18px;
+    border: 1px solid black;
+    color:#fd6603;
+    background-color: #F3F2E7;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn2:hover{
+    color: white;
+    background-color: #fd6603;
+}
 .contentchar{
-    padding: 2% 8%;
-    padding-left: 14%;
-}
+        height: 20rem;
+    width: 14rem;
+    position: absolute;
+    left: 182px;
+    background-color: transparent;
 
-.contact-us{
-    padding-bottom: 125px;
 }
-
-.contact{
-    position: relative;
-    padding-top: 125px;
+form{
+    padding:2px 2px;
 }
-
 .form{
     background: #FFFFFF;
     height: 25rem;
     width: 25rem;
-    padding: 2rem 4rem;
-    border: 1px solid black;
+    padding: 2rem 3rem 1rem 1rem;
+    border: 0.0001rem solid black;
     border-radius: 12px;
-    margin: 0 4rem;
+    margin-top: 7pc;
     z-index: 77;
+    position: absolute;
+    right: 4rem;
+    margin-top: 223px;
+    /* bottom: 33rem; */
 }
+.formdetails
+{
+    float: left;
+}
+.forform
+{
+            display: block;
+            overflow: hidden;
+            padding: 0px 4px 0px 6px;
+}
+.form h3{
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 2rem;
+    font-weight: 700;
 
+}
 input{
     width: 100%;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top:1rem;
+    font-size: 1.4rem;
     padding:2px 2px;
     border-radius: 5px;
     border:2px solid grey;
@@ -883,23 +942,43 @@ input{
 }
 #code{
     width:30%;
+    font-size: 1.1rem;
 }
 #phone{
     width:65%;
+    font-size: 1.1rem;
 }
 #submit{
+    height: 2.2rem;
     width: 50%;
-    margin-left: 4rem;
+    margin-left: 3rem;
+    margin-top:2rem;
     border-radius: 18px;
     background: #fd6603;
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: #fd6603;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .firstbox{
-    padding: 20px 0;
+    width:33.5%;
+    padding-left: 1px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+}
+#name{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+#surname{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+#email{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 #colorchange{
     background: #EAE9DA;
@@ -915,12 +994,11 @@ input{
     height: 25rem;
     width: 25rem;
     position: absolute;
-    /* right: -9px; */
-    bottom: 0;
+    right:0;
+    bottom:-6663px;
     z-index: 11;
 }
 #image4{
-    bottom: 0;
     height: 10rem;
     width: 10rem;
     position: absolute;
@@ -932,17 +1010,19 @@ input{
     width: 15rem;
     position: absolute;
     /* z-index: 25; */
-    right: 20rem;
-    bottom: 0;
+    right: 23rem;
+    /* bottom: 7rem; */
 
 }
 #image6{
     position: absolute;
     height: 10rem;
     width: 10rem;
-    top: 16rem;
+    /* top: 16rem; */
     right: 26.5rem;
+    margin: -42px;
 }
+
 /* Shubham Our team */
 *{
     margin: 0;
