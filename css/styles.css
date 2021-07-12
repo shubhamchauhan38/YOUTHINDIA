@@ -742,7 +742,25 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
 	border:  #FF6600; 1px solid;
 	
 }
-
+.explore .all
+{
+border-radius: 90px !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    padding: 10px 30px !important;
+    width: 12rem;
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    margin: 10px auto 0;
+}
+.explore .all:hover
+{
+	color: #FF6600;
+    background-color: transparent;
+    border: 1px solid #FF6600 !important;
+}
 /* Divya */
 @import url('https://fonts.googleapis.com/css?family=Hammersmith One');
 
