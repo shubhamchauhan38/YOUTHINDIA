@@ -575,7 +575,7 @@ margin-left: 4rem;
    padding-bottom: 65px;
 }
 .number_boxes{
-    -webkit-box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95); 
+/*     -webkit-box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);  */
 box-shadow: 0 0 14px 1px black;
     background-color: white;
     border-radius: 5px;
