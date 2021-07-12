@@ -632,11 +632,26 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
 }
 
 /* Shubham */
+.provide
+{
+    display: block;
+    width: 1570px;
+    margin: 1175px auto 0;
+}
 .services-head{
     text-align: center;
     padding-bottom: 30px;
 }
-
+.services h4
+{
+	display: flex;
+    	justify-content: center;
+}
+.sevices h2
+{
+	display: flex;
+    	justify-content: center;
+}
 .subservice
 {
     display: flex;
@@ -646,11 +661,12 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
     height: 130px;
 }
 
-
 #services
 {
-    display: flex;
-    margin: 0 100px;
+    	display: flex;
+    	margin: 0 100px;
+	flex-direction: column;
+    	justify-content: center;
     /* width: 100vw; */
     /* height: 100vh; */
 }
