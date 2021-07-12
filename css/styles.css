@@ -344,7 +344,32 @@ header{
 .box:hover .cover.back{
     transform: rotateY(360deg);
 }
-
+.extra
+{
+        align-items: center;
+    width: 95%;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 0fr));
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.extra .box{
+    position: relative;
+    height: 251px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+.extra .box img
+{
+    width: 360px;
+    height: 251px;
+    border-radius: 15px;
+    margin: 0 -3px -3px;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 13px -2px black;
+}
 /* CSS of front side */
 
 #second .thirdsection .cover.front span{
@@ -352,11 +377,15 @@ header{
     align-items: center;
     display: flex;
 }
-
+#second .thirdsection .extra .box h4 p
+{
+    font-family: 'Baloo Bhai 2', cursive;
+}
 .secondsection .thirdsection .cover.front img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 360px;
+    height: 240px;
+    border-radius: 15px;
+    margin-left: -21px;
     box-shadow: 0 0 13px -2px black;
 }
 
