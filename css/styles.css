@@ -1100,13 +1100,18 @@ input{
 }
 .ourteam .team{
     padding: 0 50px 30px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .parts
 {
-    margin: 3px 37px 0 141px;
+/*     margin: 3px 37px 0 141px; */
     display: flex;
     flex-direction: row;
+	justify-content: center;
 }
 .part1{
     /* margin: 0px 5px 0 92px; */
