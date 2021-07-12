@@ -918,7 +918,15 @@ border-radius: 90px !important;
 .events-card-body .card-title{
     padding-right: 25%;
 }
-
+.col-8
+{
+    background-color: #E1FFef !important;
+}
+.events-card-body .card-title{
+    padding: 10px 10px !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
 .events-btn{
     background-color: #ff6600 !important;
     border-radius: 90px !important;
@@ -928,6 +936,11 @@ border-radius: 90px !important;
     position: absolute !important;
     right: 20px;
     bottom: 23px;
+    display: block;
+    width: 89px;
+    height: 42px;
+    margin: 0 140px;
+    font-size: 17px !important;
 }
 
 .events-btn:hover{
@@ -935,7 +948,10 @@ border-radius: 90px !important;
     border: 1px solid #ff6600  !important;
     color: #ff6600 !important;
 }
-
+amall
+{
+	font-size: 1.2em;
+}
 .events-card-footer{
     padding: 16px 0 0 !important;
 }
