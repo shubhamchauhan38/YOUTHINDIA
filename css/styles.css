@@ -1128,18 +1128,18 @@ input{
     box-shadow: 0 0 13px -6px black;
 }
 .part12{
-    width: 17rem;
+    width: 20rem;
     height: 16rem;
     /* border: 2px solid black; */
     border-radius: 6px;
     background-color: #dad7d7;
-    margin: 16px 70px;
+    margin: 0 70px;
     box-shadow: 0 0 13px -6px black;
 }
 .part1 .part2 img{
     padding: 0;
-    width: 17rem;
-    height: 15rem;
+    width: 20rem;
+    height: 14rem;
     margin: 0;
     border-radius: 6px;
 }
