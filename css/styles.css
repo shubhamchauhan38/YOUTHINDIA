@@ -8,7 +8,11 @@ body{
     /* width: 100vw; */
     overflow-x: hidden;
 }
-
+.allitems
+{
+    display: flex;
+    flex-direction: column;
+}
 section{
     padding: 8% 0 5%;
 }
