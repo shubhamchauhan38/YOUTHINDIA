@@ -180,11 +180,26 @@ header{
 }
 
 .joinbtn {
-    position: absolute;
-    right: 40px;
-    margin-top: 30px !important;
+	    position: absolute;
+	    right: 40px;
+	    margin-top: 30px !important;
+		border-radius: 90px !important;
+	    font-size: 1.3rem !important;
+	    font-weight: bold !important;
+	    letter-spacing: 1px !important;
+	    padding: 10px 30px !important;
+	    width: 12rem;
+	    margin: 0em 0;
+	    background-color: #FF6600;
+	    color: white;
+	    border: none;
 }
-
+.joinbtn:hover
+{
+	color: #FF6600;
+    background-color: transparent;
+    border: 1px solid #FF6600 !important;
+}
 .main
 {
     background-color: #E8FFF3;
