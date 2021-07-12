@@ -144,6 +144,11 @@ header{
     z-index: 3;
     border-radius: 190px;
 }
+
+.child img:hover {
+	transform: scale(1.1);
+}
+
 .circle1 .logoname
 {
     position: absolute;
@@ -395,6 +400,12 @@ margin-left: 4rem;
     height:14rem;
     border-radius: 0px 0px 12px 12px;
 }
+
+.content:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #ccc;
+}
+
 .space{
     padding: 1rem;
     font-weight: 700;
@@ -449,12 +460,12 @@ margin-left: 4rem;
 }
 #founderimg{
     margin-top: 50px;
-    margin-left: 84px;
+    margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 17px;
     border-radius: 25px;
     height: 580px;
-    width: 120%;
+    width: 160%;
 }
 .Founder_button {
 	display:inline-block;
@@ -536,9 +547,18 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
     margin-bottom: 30px;
     margin-left: 10px;
     size: 100%;
-    height: 565px;
-    
+    height: 565px;  
 }
+
+
+.campaign_photo img:hover{
+	transform: scale(1.1);
+}
+
+.number_boxes:hover{
+	transform: scale(1.1);
+}
+
 /* Shubham */
 .services-head{
     text-align: center;
@@ -606,11 +626,14 @@ box-shadow: inset 1px 1px 10px -3px rgba(0,0,0,0.95);
     width: 7rem;
     height: 2rem;
     margin:1.5rem 0 .5rem 2rem;
-    border: none;
+    border:  #FF6600; 1px solid;
 
 }
 .weprovide .more:hover{
-    color: black;
+    color: #FF6600;
+    background-color: #fff;
+	border:  #FF6600; 1px solid;
+	
 }
 
 /* Divya */
@@ -914,8 +937,8 @@ input{
     height: 25rem;
     width: 25rem;
     position: absolute;
-    /* right: -9px; */
-    bottom: 0;
+    right: -9px;
+    bottom: -125px;
     z-index: 11;
 }
 #image4{
