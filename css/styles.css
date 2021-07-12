@@ -88,7 +88,7 @@ header{
             {
                 width: auto;
                 display: flex;
-				flex-direction: row;
+		flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
                 margin-left: 0px;
@@ -264,7 +264,7 @@ header{
     overflow: hidden;
     position: absolute;
     height: 63rem;
-    width: 94rem;;
+    width: 94rem;
     left: 65vw;
     top: 22rem;
     transform: rotate(52deg);
