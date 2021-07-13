@@ -278,17 +278,17 @@ header{
         display:none;
     }
 }
-.main:before {
-    content: " ";
+.main {
+        content: " ";
     overflow: hidden;
     position: absolute;
-    height: 63rem;
-    width: 94rem;
-    left: 65vw;
-    top: 22rem;
-    transform: rotate(52deg);
+    height: 55rem;
+    width: 30rem;
+    left: 73vw;
+    top: 3rem;
+    transform: rotate(55deg);
     background: #FF6600;
-    border-radius: 5%;
+    border-radius: 45px;
 }
 
 /* CSS of Second part of the page */
@@ -296,7 +296,7 @@ header{
 
 #second
 {
-    position: absolute;
+    position: relative;
     background-color: rgb(255, 255, 255);
     width: 46em;
     width: 100vw;
@@ -375,6 +375,7 @@ header{
     align-items: center;
 }
 .box:hover .cover.back{
+	    padding: 5%;
     transform: rotateY(360deg);
 }
 .extra
@@ -414,10 +415,10 @@ header{
 {
     font-family: 'Baloo Bhai 2', cursive;
 }
-#second .extra .box p
+/* #second .extra .box p
 {
     font-weight: bold;
-}
+} */
 .secondsection .thirdsection .cover.front img{
     width: 360px;
     height: 240px;
@@ -434,13 +435,13 @@ header{
 {
     margin-top: 0;
     margin-bottom: 1rem;
-    display: flex;
-    width: 101%;
-    font-family: 'Baloo Bhai 2', cursive;
-    justify-content: center;
+    /* display: flex; */
+    /* width: 101%; */
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    /* justify-content: center; */
     /* align-items: center; */
-    align-items: center;
-    font-weight: bold;
+    /* align-items: center; */
+    /* font-weight: bold;*/
 }
 
 /* Tajinder */
@@ -680,7 +681,7 @@ box-shadow: 0 0 14px 1px #8a8484;
 {
     	display: flex;
     	margin: 0 100px;
-	flex-direction: column;
+/* 	flex-direction: column; */
     	justify-content: center;
     /* width: 100vw; */
     /* height: 100vh; */
@@ -691,6 +692,7 @@ box-shadow: 0 0 14px 1px #8a8484;
 }
 .weprovide
 {
+	text-align: center;
     background-color:#F3F2E7;
     border: 2px solid black;
     margin:10px 20px 5px;
@@ -706,14 +708,15 @@ box-shadow: 0 0 14px 1px #8a8484;
     font-size: 1.5rem;
 }
 .weprovide img{
-    width: 9rem;
-    height: 8rem;
+	margin-right: 4%;
+    width: 5rem;
+    height: 5rem;
     /* position: absolute;
     top: 11rem; */
 }
 .weprovide .pic3{
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
     /* position: absolute;
     top: 11rem; */
 }
@@ -1033,6 +1036,7 @@ amall
     border-radius: 12px;
     margin: 0 4rem;
     z-index: 77;
+	position: absolute;
 }
 
 input{
@@ -1075,36 +1079,36 @@ input{
 
 }
 #image3{
-    height: 25rem;
-    width: 25rem;
+    height: 35rem;
+    width: 35rem;
     position: absolute;
     right: -9px;
     bottom: -125px;
-    z-index: 11;
+    /* z-index: 11;*/
 }
 #image4{
-    bottom: 0;
+        bottom: 0;
     height: 10rem;
     width: 10rem;
     position: absolute;
-    right: 4rem;
-    z-index: 20;
+    right: 8rem;
+    bottom: 150px;
+    /* z-index: 20;*/
 }
 #image5{
-    height:15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     position: absolute;
-    /* z-index: 25; */
-    right: 20rem;
-    bottom: 0;
+    right: 25rem;
+    bottom: -40px;
 
 }
 #image6{
-    position: absolute;
+        position: absolute;
     height: 10rem;
     width: 10rem;
-    top: 16rem;
-    right: 26.5rem;
+    top: 4rem;
+    right: 29rem;
 }
 /* Shubham Our team */
 *{
