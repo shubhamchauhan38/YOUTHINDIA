@@ -282,11 +282,11 @@ header{
         content: " ";
     overflow: hidden;
     position: absolute;
-    height: 55rem;
-    width: 30rem;
-    left: 73vw;
-    top: 3rem;
-    transform: rotate(55deg);
+    height: 63rem;
+    width: 94rem;
+    left: 65vw;
+    top: 22rem;
+    transform: rotate(52deg);
     background: #FF6600;
     border-radius: 45px;
 }
